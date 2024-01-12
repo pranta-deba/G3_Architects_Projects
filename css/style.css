@@ -22,6 +22,9 @@
 .btn-primary:hover {
     background: #cd6d00;
 }
+.text-light-gray {
+    color: #727272;
+}
 
 /* header */
 header {
@@ -70,11 +73,6 @@ nav ul li a {
     font-weight: 700;
 }
 
-.banner-description {
-    color: #727272;
-    font-weight: 400;
-}
-
 .banner-img {
     width: 100%;
     margin-top: 20px;
@@ -83,7 +81,7 @@ nav ul li a {
 /* main */
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* teams */
@@ -98,7 +96,7 @@ main {
     gap: 1.5rem;
 }
 
-.teams-contant {
+.teams-content {
     padding-right: 70px;
     padding-left: 70px;
 }
@@ -108,7 +106,6 @@ main {
 }
 
 .teams-heading .quick {
-    color: #727272;
     font-weight: 500;
 }
 

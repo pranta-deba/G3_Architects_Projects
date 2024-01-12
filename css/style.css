@@ -3,8 +3,73 @@
 
 
 /* all */
-*{
+* {
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 18px 22px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn-primary:hover{
+    background: #cd6d00;
+}
 
+/* header */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+    font-weight: 400;
+}

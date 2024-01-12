@@ -18,7 +18,8 @@
     cursor: pointer;
     transition: all 0.2s;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background: #cd6d00;
 }
 
@@ -73,7 +74,49 @@ nav ul li a {
     color: #727272;
     font-weight: 400;
 }
-.banner-img{
+
+.banner-img {
     width: 100%;
     margin-top: 20px;
+}
+
+/* main */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams */
+.teams {
+    display: flex;
+    align-items: center;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-contant {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.teams-heading {
+    font-size: 2.8rem;
+}
+
+.teams-heading .quick {
+    color: #727272;
+    font-weight: 500;
+}
+
+.teams-heading .our {
+    font-weight: 700;
+}
+
+.teams-heading .features {
+    color: #FF900E;
+    font-weight: 700;
 }

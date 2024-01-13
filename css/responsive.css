@@ -4,7 +4,7 @@
     }
 
     nav,
-    .teams {
+    .teams-section {
         flex-direction: column
     }
 
@@ -23,7 +23,7 @@
     }
 
     nav,
-    .teams {
+    .teams-section {
         flex-direction: column
     }
 }

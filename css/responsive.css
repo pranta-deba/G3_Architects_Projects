@@ -6,7 +6,8 @@
     nav,
     .teams-section,
     .facts-card-container,
-    .sponspors-img-container {
+    .sponspors-img-container,
+    .features-section {
         flex-direction: column
     }
 
@@ -26,6 +27,16 @@
     .sponspors-img-container {
         justify-content: center;
         gap: 30px;
+    }
+    .features-img img{
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
+    }
+    .ten-years{
+        position: static;
+        width: 100%;
+        padding: 10px;
     }
 
 }

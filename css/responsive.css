@@ -38,6 +38,9 @@
         width: 100%;
         padding: 10px;
     }
+    footer{
+        width: 100%;
+    }
 
 }
 
@@ -47,12 +50,17 @@
     }
 
     nav,
-    .teams-section {
+    .teams-section,
+    .features-section  {
         flex-direction: column
     }
     .sponspors-img-container{
         flex-direction: column;
         justify-content: center;
         gap: 40px;
+    }
+    
+    footer{
+        width: 100%;
     }
 }
